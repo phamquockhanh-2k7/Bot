@@ -4,7 +4,7 @@ const TelegramBot = require("node-telegram-bot-api");
 const fetch = require("node-fetch");
 
 const token = "7564477363:AAFKR9vuqpyPAfnmV5QgrLJEKAEaxFuoD4w";
-const admin = "6313923856";
+const admin = "7914411384";
 const DATABASE_URL = "https://flex-image-8f200-default-rtdb.firebaseio.com"; 
 const WEBHOOK_URL = "VERCEL_URL";
 
@@ -118,11 +118,11 @@ app.post("/", async (req, res) => {
       const caption =
         "*👆 Here Is Your Generated Image\n\n💭 Your Prompt:*\n`" +
         msg.text +
-        "`\n\n*🧑‍💻 Created By:* [BOTNAME](https://telegram.dog/BOT_USERNAME)";
+        "`\n\n*🧑‍💻 Created By:* [BOTNAME](https://telegram.dog/khovideovipvnbot_bot)";
       const keyboard = {
         reply_markup: {
           inline_keyboard: [
-            [{ text: "🧑‍💻 Developer", url: "https://telegram.dog/DEVELOPER" }]
+            [{ text: "🧑‍💻 Developer", url: "https://telegram.dog/nothinginthissss" }]
           ]
         },
         parse_mode: "Markdown",
