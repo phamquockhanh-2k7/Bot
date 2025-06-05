@@ -6,7 +6,7 @@ const fetch = require("node-fetch");
 const token = "7564477363:AAFKR9vuqpyPAfnmV5QgrLJEKAEaxFuoD4w";
 const admin = "7914411384";
 const DATABASE_URL = "https://flex-image-8f200-default-rtdb.firebaseio.com"; 
-const WEBHOOK_URL = "VERCEL_URL";
+const WEBHOOK_URL = "https://vercel.com/telegram-bots-projects-cd37beec/bot/8oBKc4X3Rb3nZGQ94zJgsaYdaUqb";
 
 const bot = new TelegramBot(token, { webHook: { port: false } });
 const app = express();
